@@ -12,9 +12,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Injection", "Dependency Injection", "{914699EB-48B9-4AF5-A5FE-44C5914B34E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Net5.CLI", "DependencyInjection.Net5.CLI\DependencyInjection.Net5.CLI.csproj", "{550516BA-B5BF-49F5-B19F-27AB159E16A5}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{550516BA-B5BF-49F5-B19F-27AB159E16A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550516BA-B5BF-49F5-B19F-27AB159E16A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550516BA-B5BF-49F5-B19F-27AB159E16A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550516BA-B5BF-49F5-B19F-27AB159E16A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{550516BA-B5BF-49F5-B19F-27AB159E16A5} = {914699EB-48B9-4AF5-A5FE-44C5914B34E5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB3F6C59-209A-4822-A95D-38341A8D6EAE}
