@@ -12,11 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Injection", "Dependency Injection", "{914699EB-48B9-4AF5-A5FE-44C5914B34E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection.Net5.CLI", "DependencyInjection.Net5.CLI\DependencyInjection.Net5.CLI.csproj", "{550516BA-B5BF-49F5-B19F-27AB159E16A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DependencyInjection.Net5.CLI", "DependencyInjection.Net5.CLI\DependencyInjection.Net5.CLI.csproj", "{550516BA-B5BF-49F5-B19F-27AB159E16A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SeriLog", "SeriLog", "{9DF0DEAA-3548-40C9-8831-9DC0FC0F7F3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriLog.Net5.CLI", "SeriLog.Net5.CLI\SeriLog.Net5.CLI.csproj", "{C37C22EA-2E56-47BD-80E1-5956E0DD29BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeriLog.Net5.CLI", "SeriLog.Net5.CLI\SeriLog.Net5.CLI.csproj", "{C37C22EA-2E56-47BD-80E1-5956E0DD29BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeriLog.Net5.WebApi", "SeriLog.Net5.WebApi\SeriLog.Net5.WebApi.csproj", "{6DFBB242-35BD-4136-9A92-3516AA3A827B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +34,10 @@ Global
 		{C37C22EA-2E56-47BD-80E1-5956E0DD29BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C37C22EA-2E56-47BD-80E1-5956E0DD29BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C37C22EA-2E56-47BD-80E1-5956E0DD29BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFBB242-35BD-4136-9A92-3516AA3A827B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFBB242-35BD-4136-9A92-3516AA3A827B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFBB242-35BD-4136-9A92-3516AA3A827B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFBB242-35BD-4136-9A92-3516AA3A827B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{550516BA-B5BF-49F5-B19F-27AB159E16A5} = {914699EB-48B9-4AF5-A5FE-44C5914B34E5}
 		{C37C22EA-2E56-47BD-80E1-5956E0DD29BD} = {9DF0DEAA-3548-40C9-8831-9DC0FC0F7F3B}
+		{6DFBB242-35BD-4136-9A92-3516AA3A827B} = {9DF0DEAA-3548-40C9-8831-9DC0FC0F7F3B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB3F6C59-209A-4822-A95D-38341A8D6EAE}
